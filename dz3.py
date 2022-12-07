@@ -51,7 +51,7 @@ elif D == 0:
     x = -cf[1]/(2*cf[0])
     print("Root of equation: X=%2f" %(x))
 elif D < 0:
-    print("Solution of equation is complex number")
+    print("Solution of equation is complex number!")
 else:
     print("Invalid value of coefficients, try again")
 
