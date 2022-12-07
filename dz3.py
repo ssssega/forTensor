@@ -16,7 +16,7 @@ else:
 
 print("Your hero at a point with coordinates: %s, %s" %(point[0],point[1]))
 
-2
+#2
 point = [0,0]
 while True:
     command = list(input("Where to move (e.g. 'Down 2'): ").split())
@@ -38,7 +38,7 @@ while True:
     else:
         print("Invalid command, try again")
 
-3
+#3
 cf = list(map(float, input("Input a coefficients of the equation (e.g. '5 -6 3'): ").split()))
 D = cf[1]**2 - 4*cf[0]*cf[2]
 if cf[0]==0:
